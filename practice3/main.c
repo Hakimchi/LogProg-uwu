@@ -1,14 +1,19 @@
 //
-//  main.c
-//  practice3
-//
-//  Created by Hakeem Espejel on 18/09/25.
+// main.c
+// Programa principal que llama a los ejercicios de lógica básica
 //
 
 #include <stdio.h>
+#include "ejercicios.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main(void) {
+    // Llamamos a cada ejercicio
+    ejercicio1();
+    printf("\n"); // Separador visual entre ejercicios
+    ejercicio2();
+    printf("\n");
+    ejercicio3();
+    printf("\n");
+
+    return 0; // Fin del programa
 }
