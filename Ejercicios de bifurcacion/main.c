@@ -6,9 +6,13 @@
 //
 
 #include <stdio.h>
+#include "ejercicios.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    ejercicio1();
+    ejercicio2();
+    ejercicio3();
+    ejercicio4();
     return 0;
 }
